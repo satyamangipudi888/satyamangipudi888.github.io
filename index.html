@@ -1,0 +1,40 @@
+<!doctype html>
+<html style="display: none">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="/acme-icon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyBank</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/shuqikhor/Vanilla-OTP-Input@main/vanilla-otp.min.js"></script>
+    
+    <script type="module" crossorigin src="/assets/index-f59f5efd.js"></script>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="row">
+          <a href="/" class="logo"><img src="/acme-logo.svg" alt="MyBank" /></a>
+          <div id="journey-name" class="kvp-label">
+            <div class="key">Journey:</div>
+            <div class="value">—</div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="debug-pin" class="kvp-label"></div>
+          <button id="restart-button" class="tertiary"><img src="/restart.svg" alt="" />Restart</button>
+        </div>
+      </header>
+      <main>
+        <div id="app"></div>
+      </main>
+      <footer>
+        <img src="/mosaic-logo.svg" alt="Transmit Security" />
+      </footer>
+    </div>
+    <div id="overlays"></div>
+  </body>
+</html>
